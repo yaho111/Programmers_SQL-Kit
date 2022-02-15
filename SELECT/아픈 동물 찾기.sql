@@ -1,5 +1,5 @@
 -- SELECT
--- 3. ¾ÆÇÂ µ¿¹° Ã£±â
--- ¹®Á¦: https://programmers.co.kr/learn/courses/30/lessons/59036
--- Á¤´ä: 
+-- 3. ì•„í”ˆ ë™ë¬¼ ì°¾ê¸°
+-- ë¬¸ì œ: https://programmers.co.kr/learn/courses/30/lessons/59036
+-- ì •ë‹µ: 
 SELECT animal_id, name FROM animal_ins WHERE intake_condition = 'Sick' ORDER BY animal_id ASC;

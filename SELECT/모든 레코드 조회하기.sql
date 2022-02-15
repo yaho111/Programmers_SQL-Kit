@@ -1,5 +1,5 @@
 -- SELECT
--- 1. ¸ðµç ·¹ÄÚµå Á¶È¸ÇÏ±â
--- ¹®Á¦: https://programmers.co.kr/learn/courses/30/lessons/59034
--- Á¤´ä:
+-- 1. ëª¨ë“  ë ˆì½”ë“œ ì¡°íšŒí•˜ê¸°
+-- ë¬¸ì œ: https://programmers.co.kr/learn/courses/30/lessons/59034
+-- ì •ë‹µ:
 SELECT * FROM animal_ins ORDER BY animal_id ASC;

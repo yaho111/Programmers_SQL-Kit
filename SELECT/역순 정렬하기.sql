@@ -1,5 +1,5 @@
 -- SELECT
--- 2. ¿ª¼ø Á¤·ÄÇÏ±â
--- ¹®Á¦: https://programmers.co.kr/learn/courses/30/lessons/59035
--- Á¤´ä: 
+-- 2. ì—­ìˆœ ì •ë ¬í•˜ê¸°
+-- ë¬¸ì œ: https://programmers.co.kr/learn/courses/30/lessons/59035
+-- ì •ë‹µ: 
 SELECT name, datetime FROM animal_ins ORDER BY animal_id DESC;

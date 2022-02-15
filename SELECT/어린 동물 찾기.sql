@@ -1,15 +1,15 @@
 -- SELECT
--- 4. ¾î¸° µ¿¹° Ã£±â
--- ¹®Á¦: https://programmers.co.kr/learn/courses/30/lessons/59037
--- Á¤´ä:
--- 1) °°Áö ¾Ê´Ù: !=
+-- 4. ì–´ë¦° ë™ë¬¼ ì°¾ê¸°
+-- ë¬¸ì œ: https://programmers.co.kr/learn/courses/30/lessons/59037
+-- ì •ë‹µ:
+-- 1) ê°™ì§€ ì•Šë‹¤: !=
 SELECT animal_id, name FROM animal_ins WHERE intake_condition != 'Aged' ORDER BY animal_id ASC;
 
--- 2) °°Áö ¾Ê´Ù: ^=
+-- 2) ê°™ì§€ ì•Šë‹¤: ^=
 SELECT animal_id, name FROM animal_ins WHERE intake_condition ^= 'Aged' ORDER BY animal_id ASC;
 
--- 3) °°Áö ¾Ê´Ù: <>
+-- 3) ê°™ì§€ ì•Šë‹¤: <>
 SELECT animal_id, name FROM animal_ins WHERE intake_condition <> 'Aged' ORDER BY animal_id ASC;
 
--- Ç®ÀÌ: ¾î¸° µ¿¹° = intake_condition ¼Ó¼º °ªÀÌ 'Aged'°¡ ¾Æ´Ï¾î¾ß ÇÔ
---      ¿À¶óÅ¬ÀÇ ¿¬»êÀÚ¿¡¼­ °°Áö ¾ÊÀ½À» Ç¥½ÃÇÏ´Â ¿¬»êÀÚ¿¡´Â !=, ^=, <>°¡ ÀÖ´Ù.
+-- í’€ì´: ì–´ë¦° ë™ë¬¼ = intake_condition ì†ì„± ê°’ì´ 'Aged'ê°€ ì•„ë‹ˆì–´ì•¼ í•¨
+--      ì˜¤ë¼í´ì˜ ì—°ì‚°ìì—ì„œ ê°™ì§€ ì•ŠìŒì„ í‘œì‹œí•˜ëŠ” ì—°ì‚°ìì—ëŠ” !=, ^=, <>ê°€ ìˆë‹¤.

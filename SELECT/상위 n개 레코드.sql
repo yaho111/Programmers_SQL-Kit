@@ -1,5 +1,5 @@
 -- SELECT
--- 7. »óÀ§ n°³ ·¹ÄÚµå
--- ¹®Á¦: https://programmers.co.kr/learn/courses/30/lessons/59405
--- Á¤´ä:
+-- 7. ìƒìœ„ nê°œ ë ˆì½”ë“œ
+-- ë¬¸ì œ: https://programmers.co.kr/learn/courses/30/lessons/59405
+-- ì •ë‹µ:
 SELECT name FROM animal_ins WHERE datetime = (SELECT MIN(datetime) FROM animal_ins);
